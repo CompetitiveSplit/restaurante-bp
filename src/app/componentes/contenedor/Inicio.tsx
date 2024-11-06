@@ -3,11 +3,16 @@ export const Inicio = () => {
     <>
       <div className="pt-5 d-flex justify-content-center">
         <div className="col-md-6">
-        <div className="h-100 p-5 text-bg-dark rounded-3">
-          <h2>Bienvenidos al restaurante</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <button className="btn btn-outline-light" type="button">Example button</button>
-        </div>
+          <div className="restaurant-card p-5 text-dark rounded-3">
+            <h2>Bienvenidos al Restaurante xxxx xxxx</h2>
+            <p className="description">
+              En nuestro restaurante, podrás disfrutar de los sabores más
+              auténticos de la cocina china. Desde deliciosos rollos de
+              primavera hasta el sabroso pato pekinés, cada plato está preparado
+              con ingredientes frescos y tradicionales. ¡Ven y vive la
+              experiencia culinaria china con nosotros!
+            </p>
+          </div>
         </div>
       </div>
     </>
